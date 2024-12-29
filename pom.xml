@@ -23,6 +23,10 @@
 	</developers>
 	<modules>
 		<module>be-start</module>
+        <module>be-controller</module>
+		<module>be-application</module>
+		<module>be-infrastructure</module>
+		<module>be-domain</module>
 	</modules>
 	<scm>
 		<connection/>
@@ -38,7 +42,7 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
-				<version>3.3.2</version>
+				<version>3.4.0</version>
 				<scope>import</scope>
 				<type>pom</type>
 			</dependency>

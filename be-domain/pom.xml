@@ -9,8 +9,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.example</groupId>
-    <artifactId>be-start</artifactId>
+    <groupId>org.domain</groupId>
+    <artifactId>be-domain</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -20,10 +20,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.controller</groupId>
-            <artifactId>be-controller</artifactId>
+            <groupId>org.infrastructure</groupId>
+            <artifactId>be-infrastructure</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
-
 </project>
